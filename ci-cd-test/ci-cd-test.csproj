@@ -4,10 +4,13 @@
         <TargetFramework>net5.0</TargetFramework>
         <RootNamespace>ci_cd_test</RootNamespace>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <PackageVersion>1.0.1</PackageVersion>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <SourceRevisionId>build$([System.DateTime]::UtcNow.ToString("yyyy-MM-ddTHH:mm:ss:fffZ"))</SourceRevisionId>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Lazcat.Infrastructure" Version="1.0.0" />
+        <PackageReference Include="Lazcat.Infrastructure" Version="1.0.1" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
     </ItemGroup>
 

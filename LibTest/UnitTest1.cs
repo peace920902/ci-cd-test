@@ -13,5 +13,12 @@ namespace LibTest
             var actual = cal.Add(1, 2);
             Assert.Equal(3, actual);
         }
+
+        [Fact]
+        public void T2()
+        {
+            ISuckService suckService = new SuckService();
+            Assert.Equal("Suck My Dick Man", suckService.SuckMyDick());
+        }
     }
 }
