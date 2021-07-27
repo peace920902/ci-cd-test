@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ci-cd-test", "ci-cd-test\ci-cd-test.csproj", "{412887E6-C7B3-4A65-990C-007502E09416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib", "Lib\Lib.csproj", "{6CA6B2A7-C1AD-4CB7-9546-2B7F853117BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibTest", "LibTest\LibTest.csproj", "{8932646B-54FE-4C53-8ED8-84DDFDB0AD62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{412887E6-C7B3-4A65-990C-007502E09416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{412887E6-C7B3-4A65-990C-007502E09416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{412887E6-C7B3-4A65-990C-007502E09416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{412887E6-C7B3-4A65-990C-007502E09416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CA6B2A7-C1AD-4CB7-9546-2B7F853117BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA6B2A7-C1AD-4CB7-9546-2B7F853117BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA6B2A7-C1AD-4CB7-9546-2B7F853117BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA6B2A7-C1AD-4CB7-9546-2B7F853117BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8932646B-54FE-4C53-8ED8-84DDFDB0AD62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8932646B-54FE-4C53-8ED8-84DDFDB0AD62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8932646B-54FE-4C53-8ED8-84DDFDB0AD62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8932646B-54FE-4C53-8ED8-84DDFDB0AD62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
