@@ -20,7 +20,7 @@ jobs:
     
     - name: Restore dependencies
       run: |
-        dotnet nuget add source https://nuget.pkg.github.com/peace920902/index.json --name "private-packages"  -StorePasswordInClearText --username peace920902 --password ${env:Password}
+        dotnet nuget add source https://nuget.pkg.github.com/peace920902/index.json --name "private-packages" --username peace920902 --password ${env:Password}
         dotnet restore
       env: 
         Password: ${{ secrets.PACKAGE_TOKEN }}
