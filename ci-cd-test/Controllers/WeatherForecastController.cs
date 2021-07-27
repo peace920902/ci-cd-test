@@ -18,10 +18,12 @@ namespace ci_cd_test.Controllers
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ICalService _calService;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, ICalService calService)
         {
             _logger = logger;
+            _calService = calService;
         }
 
         [HttpGet]
@@ -41,8 +43,7 @@ namespace ci_cd_test.Controllers
         [Route("x")]
         public int X()
         {
-            var cal = new Cal();
-            return cal.Add(1, 1);
+            return _calService.Add(1, 1);
         }
     }
 }

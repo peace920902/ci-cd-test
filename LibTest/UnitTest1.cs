@@ -9,7 +9,7 @@ namespace LibTest
         [Fact]
         public void Test1()
         {
-            var cal = new Cal();
+            ICalService cal = new CalService();
             var actual = cal.Add(1, 2);
             Assert.Equal(3, actual);
         }
