@@ -30,7 +30,7 @@ jobs:
     - name: docker build
       run: docker build . -t ci
     - name: docker login
-      run: docker login -u peace920902 -p ${{ secrets.PACKAGE_TOKEN_RW }}
+      run: docker login ghcr.io -u peace920902 -p ${{ secrets.PACKAGE_TOKEN_RW }}
     - name: docker push
       run: docker push ghcr.io/peace920902/ci:latest
     
